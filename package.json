@@ -1,0 +1,25 @@
+{
+  "name": "qaabil-e-taareef-lyric-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "9:16 beat-synced lyric video for Qaabil-E-Taareef (0:25 - 1:08)",
+  "scripts": {
+    "dev": "remotion studio",
+    "start": "remotion studio",
+    "build": "remotion render LyricVideo out/lyric-video.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.528",
+    "@remotion/google-fonts": "4.0.528",
+    "@remotion/media": "4.0.528",
+    "@remotion/media-utils": "4.0.528",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.528"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.5.0"
+  }
+}
